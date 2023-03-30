@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+            <li><a href="package.html">Packages</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <h1>Your Travel Agency</h1>
+        <p>Find your perfect vacation with us</p>
+        <a href="#" class="button">Book Now</a>
+      </div>
+    </header>
+
+    <section class="featured-destinations">
+      <div class="container">
+        <h2>Featured Destinations</h2>
+        <div class="destination">
+          <div class="destination-image">
+            <img src="https://picsum.photos/400/300" alt="New York, USA">
+            <div class="overlay">
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+          <h3>New York, USA</h3>
+          <p>Experience the hustle and bustle of the city that never sleeps.</p>
+        </div>
+        <div class="destination">
+          <div class="destination-image">
+            <img src="https://picsum.photos/400/300" alt="Paris, France">
+            <div class="overlay">
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+          <h3>Paris, France</h3>
+          <p>Explore the City of Love and all its charm.</p>
+        </div>
+        <div class="destination">
+          <div class="destination-image">
+            <img src="https://picsum.photos/400/300" alt="Tokyo, Japan">
+            <div class="overlay">
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+          <h3>Tokyo, Japan</h3>
+          <p>Experience the unique culture and delicious cuisine of Japan.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="customer-trips">
+      <div class="container">
+        <h2>Customer Trip Pictures</h2>
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img src="https://source.unsplash.com/1600x900/?travel" alt="Customer Trip Picture 1">
+            <img src="https://source.unsplash.com/1600x900/?vacation" alt="Customer Trip Picture 2">
+            <img src="https://source.unsplash.com/1600x900/?holiday" alt="Customer Trip Picture 3">
+            <img src="https://source.unsplash.com/1600x900/?adventure" alt="Customer Trip Picture 4">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- testimonial -->
+    
+
+    <section class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonial-list"></div>
+        <button id="add-testimonial">Add Testimonial</button>
+      </div>
+    </section>
+    
+    <div id="testimonial-form-wrapper" class="hidden">
+      <form id="testimonial-form">
+        <label for="testimonial-text">Write something about your trip:</label>
+        <textarea id="testimonial-text" name="testimonial-text"></textarea>
+        <label for="testimonial-rating">Provide a rating (1-5):</label>
+        <input type="number" id="testimonial-rating" name="testimonial-rating" min="1" max="5">
+        <label for="testimonial-image">Add your image:</label>
+        <input type="file" id="testimonial-image" name="testimonial-image">
+        <button type="submit" id="submit-testimonial">Submit</button>
+      </form>
+    </div>
+    
+    <div class="testimonial-container">
+      <div class="testimonial-list"></div>
+      <button id="expand-btn">Show More</button>
+      <button id="collapse-btn" class="hidden">Show Less</button>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <!-- testimonial form -->
+   
+    
+    
+    
+
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+        <p class="email">Email us at <a href="mailto:info@yourtravelagency.com">info@yourtravelagency.com</a></p>
+        <p>&copy; 2023 Your Travel Agency</p>
+      </div>
+    </footer>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="index.js"></script>
+  </body>
+           
